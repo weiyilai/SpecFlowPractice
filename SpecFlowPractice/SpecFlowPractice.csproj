@@ -43,12 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IAccount.cs" />
+    <Compile Include="Interface\IHash.cs" />
+    <Compile Include="Interface\IValidation.cs" />
+    <Compile Include="Model\Account.cs" />
     <Compile Include="Model\Calculator.cs" />
+    <Compile Include="Model\Hash.cs" />
+    <Compile Include="Model\Validation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
