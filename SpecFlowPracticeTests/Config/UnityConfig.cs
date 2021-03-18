@@ -36,6 +36,7 @@ namespace SpecFlowPracticeTests.Config
             Container.RegisterType<IAccount, Account>();
             Container.RegisterType<IHash, Hash>();
             Container.RegisterType<IValidation, Validation>();
+            Container.RegisterType<ITimeWrapper, TimeWrapper>();
 
             return Container;
         }

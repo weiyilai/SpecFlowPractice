@@ -44,11 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\IAccount.cs" />
+    <Compile Include="Interface\ICheckInFee.cs" />
     <Compile Include="Interface\IHash.cs" />
+    <Compile Include="Interface\ITimeWrapper.cs" />
     <Compile Include="Interface\IValidation.cs" />
     <Compile Include="Model\Account.cs" />
     <Compile Include="Model\Calculator.cs" />
+    <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\Hash.cs" />
+    <Compile Include="Model\Pub.cs" />
+    <Compile Include="Model\TimeWrapper.cs" />
     <Compile Include="Model\Validation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
